@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="preloaded_fonts" translatable="false">
+        <item>@font/amatica_sc_bold</item>
+        <item>@font/finger_paint</item>
+        <item>@font/indie_flower</item>
+        <item>@font/just_me_again_down_here</item>
+        <item>@font/sue_ellen_francisco</item>
+        <item>@font/waiting_for_the_sunrise</item>
+    </array>
+</resources>

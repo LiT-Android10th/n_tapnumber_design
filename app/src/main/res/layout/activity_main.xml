@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#e6e6fa"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/timerText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:fontFamily="sans-serif"
+        android:text="-sec."
+        android:textSize="32sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/waiting_for_the_sunrise"
+            android:gravity="center"
+            android:text="1234"
+            android:textAlignment="center"
+            android:textAllCaps="true"
+            android:textSize="110sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+
+            <Button
+                android:id="@+id/button"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/circle"
+                android:fontFamily="@font/waiting_for_the_sunrise"
+                android:onClick="number1"
+                android:scaleX="0.95"
+                android:scaleY="0.7"
+                android:text="1"
+                android:textAlignment="center"
+                android:textAllCaps="true"
+                android:textColor="#ffffffff"
+                android:textSize="90sp" />
+
+            <Button
+                android:id="@+id/button1"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/circle1"
+                android:fontFamily="@font/waiting_for_the_sunrise"
+                android:onClick="number2"
+                android:scaleX="0.95"
+                android:scaleY="0.7"
+                android:text="2"
+                android:textAlignment="center"
+                android:textAllCaps="true"
+                android:textColor="#ffffffff"
+                android:textSize="90sp" />
+
+            <Button
+                android:id="@+id/button2"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/circle2"
+                android:fontFamily="@font/waiting_for_the_sunrise"
+                android:onClick="number3"
+                android:scaleX="0.95"
+                android:scaleY="0.7"
+                android:text="3"
+                android:textAlignment="center"
+                android:textColor="#ffffffff"
+                android:textSize="90sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+
+            <Button
+                android:id="@+id/button3"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/circle3"
+                android:fontFamily="@font/waiting_for_the_sunrise"
+                android:onClick="number4"
+                android:scaleX="0.95"
+                android:scaleY="0.7"
+                android:text="4"
+                android:textAlignment="center"
+                android:textAllCaps="true"
+                android:textColor="#ffffffff"
+                android:textSize="90sp" />
+
+            <Button
+                android:id="@+id/button4"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/circle4"
+                android:fontFamily="@font/waiting_for_the_sunrise"
+                android:onClick="number5"
+                android:scaleX="0.95"
+                android:scaleY="0.7"
+                android:text="5"
+                android:textAlignment="center"
+                android:textAllCaps="true"
+                android:textColor="#ffffffff"
+                android:textSize="90sp" />
+
+            <Button
+                android:id="@+id/button5"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/circle5"
+                android:fontFamily="@font/waiting_for_the_sunrise"
+                android:onClick="number6"
+                android:scaleX="0.95"
+                android:scaleY="0.7"
+                android:text="6"
+                android:textAlignment="center"
+                android:textColor="#ffffffff"
+                android:textSize="90sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+
+            <Button
+                android:id="@+id/button6"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/circle6"
+                android:fontFamily="@font/waiting_for_the_sunrise"
+                android:onClick="number7"
+                android:scaleX="0.95"
+                android:scaleY="0.7"
+                android:text="7"
+                android:textAlignment="center"
+                android:textColor="#ffffffff"
+                android:textSize="90sp" />
+
+            <Button
+                android:id="@+id/button7"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/circle7"
+                android:fontFamily="@font/waiting_for_the_sunrise"
+                android:onClick="number8"
+                android:scaleX="0.95"
+                android:scaleY="0.7"
+                android:text="8"
+                android:textAlignment="center"
+                android:textColor="#ffffffff"
+                android:textSize="90sp" />
+
+            <Button
+                android:id="@+id/button8"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/circle8"
+                android:fontFamily="@font/waiting_for_the_sunrise"
+                android:onClick="number9"
+                android:scaleX="0.95"
+                android:scaleY="0.7"
+                android:text="9"
+                android:textAlignment="center"
+                android:textColor="#ffffffff"
+                android:textSize="90sp" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>
